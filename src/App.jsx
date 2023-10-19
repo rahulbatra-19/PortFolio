@@ -26,7 +26,6 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
-      Feedbacks
     </BrowserRouter>
   );
 };

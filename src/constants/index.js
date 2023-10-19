@@ -113,11 +113,6 @@ const technologies = [
     name: "git",
     icon: git,
   },
-
-  {
-    name: "postman",
-    icon: postman,
-  },
 ];
 
 const experiences = [

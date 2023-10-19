@@ -23,6 +23,11 @@ import {
   mongoose,
   firebase,
   express,
+  Connections,
+  promptpal,
+  Cartify,
+  openLink,
+  Roamio,
 } from "../assets";
 
 export const navLinks = [
@@ -184,9 +189,32 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Romio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A travel booking platform that allows users to bookhotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongoDb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Roamio,
+    source_code_link:
+      "https://github.com/rahulbatra-19/Roamio-Vacation-Booking-mern",
+    hosted_link: "",
+  },
+  {
+    name: "Connections",
+    description:
+      "This is a Social Media web application, where users can make friends, chat with them ,post their pictures, friends could leave a like and comment, and a special page for celebrity as well.",
     tags: [
       {
         name: "react",
@@ -201,50 +229,53 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Connections,
+    source_code_link: "https://github.com/rahulbatra-19/Connections",
+    hosted_link: "",
   },
   {
-    name: "Job IT",
+    name: "Cartify",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for products, view product, and product to the cart, filter them by category, and even add product .",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Cartify,
+    source_code_link: "https://github.com/rahulbatra-19/Cartify",
+    hosted_link: "https://rahulbatra-19.github.io/Cartify",
   },
   {
-    name: "Trip Guide",
+    name: "PromptPal",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a prompts Web application that enables users to search for prompts, where users can post prompts and copy them that are used to instruct AI models like GPT-3 to generate text or perform specific tasks.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongoDb",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: promptpal,
+    source_code_link: "https://github.com/rahulbatra-19/PromptPal",
+    hosted_link: "https://promptpal-xi.vercel.app",
   },
 ];
 

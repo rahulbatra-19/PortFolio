@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import openLink from "./openLink.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,6 +30,10 @@ import codingNinjas from "./company/codingNinjas.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Cartify from "./Cartify.png";
+import Connections from "./Connections.png";
+import promptpal from "./promptpal.png";
+import Roamio from "./Roamio.png";
 
 export {
   logo,
@@ -59,4 +64,9 @@ export {
   mongoose,
   postman,
   java,
+  openLink,
+  Cartify,
+  Roamio,
+  promptpal,
+  Connections,
 };

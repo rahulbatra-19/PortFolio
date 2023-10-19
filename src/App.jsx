@@ -3,7 +3,6 @@ import {
   About,
   Contact,
   Education,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
@@ -22,12 +21,12 @@ const App = () => {
         <Education />
         <Tech />
         <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
         </div>
       </div>
+      Feedbacks
     </BrowserRouter>
   );
 };

@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -13,19 +12,17 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
   codingNinjas,
   Fidelis,
   DU,
-  tesla,
-  shopify,
+  java,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  postman,
+  mongoose,
+  firebase,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -72,12 +69,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
   },
   {
     name: "Redux Toolkit",
@@ -88,28 +85,33 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "java",
+    icon: java,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Express.js",
+    icon: express,
+  },
+  {
+    name: "Mongoose",
+    icon: mongoose,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "git",
     icon: git,
   },
+
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "postman",
+    icon: postman,
   },
 ];
 

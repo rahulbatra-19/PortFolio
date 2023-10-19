@@ -16,9 +16,6 @@ import {
   Fidelis,
   DU,
   java,
-  carrent,
-  jobit,
-  tripguide,
   postman,
   mongoose,
   firebase,
@@ -26,7 +23,6 @@ import {
   Connections,
   promptpal,
   Cartify,
-  openLink,
   Roamio,
 } from "../assets";
 
@@ -117,7 +113,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "ST.FIDELIS.SEC.SCHOOL",
+    title: "ST.FIDELIS.SEC SCHOOL",
     company_name: "PCMC",
     icon: Fidelis,
     iconBg: "#EBEBEC",

@@ -27,9 +27,7 @@ import DU from "./company/DU.png";
 import Fidelis from "./company/Fidelis.png";
 import codingNinjas from "./company/codingNinjas.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 import Cartify from "./Cartify.png";
 import Connections from "./Connections.png";
 import promptpal from "./promptpal.png";
@@ -53,9 +51,6 @@ export {
   reactjs,
   redux,
   tailwind,
-  carrent,
-  jobit,
-  tripguide,
   DU,
   Fidelis,
   codingNinjas,

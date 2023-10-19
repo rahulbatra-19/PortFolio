@@ -23,8 +23,11 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import DU from "./company/DU.png";
+import Fidelis from "./company/Fidelis.png";
+import codingNinjas from "./company/codingNinjas.png";
+import starbucks from "./company/starbucks.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  DU,
+  Fidelis,
+  codingNinjas,
 };

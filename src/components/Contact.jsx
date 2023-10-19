@@ -26,8 +26,8 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        "service_plcaxh2",
-        "template_t7ckj38",
+        import.meta.env.EMAILJS_SERVICE_ID,
+        import.meta.env.EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Rahul",
@@ -35,7 +35,7 @@ const Contact = () => {
           to_email: "batrarhul409@gmail.com",
           message: form.message,
         },
-        "RpW-W1PbpxaX9ulSU"
+        import.meta.env.EMAILJS_PUPBLIC_KEY
       )
       .then(() => {
         setLoading(false);

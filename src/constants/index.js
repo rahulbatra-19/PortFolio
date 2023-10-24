@@ -173,7 +173,7 @@ const projects = [
     image: Roamio,
     source_code_link:
       "https://github.com/rahulbatra-19/Roamio-Vacation-Booking-mern",
-    hosted_link: "",
+    hosted_link: "https://roamio-app.netlify.app/",
   },
   {
     name: "Connections",

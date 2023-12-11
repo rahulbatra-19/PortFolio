@@ -24,6 +24,7 @@ import {
   promptpal,
   Cartify,
   Roamio,
+  Formify,
 } from "../assets";
 
 export const navLinks = [
@@ -181,6 +182,10 @@ const projects = [
       "This is a Social Media web application, where users can make friends, chat with them ,post their pictures, friends could leave a like and comment, and a special page for celebrity as well.",
     tags: [
       {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
         name: "node.js",
         color: "blue-text-gradient",
       },
@@ -240,6 +245,32 @@ const projects = [
     image: promptpal,
     source_code_link: "https://github.com/rahulbatra-19/PromptPal",
     hosted_link: "https://promptpal-xi.vercel.app",
+  },
+  {
+    name: "Formify",
+    description:
+      "Fortify: An intuitive form builder with diverse question types—close, comprehension, and categorical. Simplifying form creation, submission, and result retrieval for seamless user interaction.",
+    tags: [
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Formify,
+    source_code_link: "https://github.com/rahulbatra-19/Formify-backend",
+    hosted_link: "https://formify-rahul.netlify.app/",
   },
 ];
 

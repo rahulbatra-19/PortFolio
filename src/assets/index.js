@@ -27,11 +27,11 @@ import DU from "./company/DU.png";
 import Fidelis from "./company/Fidelis.png";
 import codingNinjas from "./company/codingNinjas.png";
 
-
 import Cartify from "./Cartify.png";
 import Connections from "./Connections.png";
 import promptpal from "./promptpal.png";
 import Roamio from "./Roamio.png";
+import Formify from "./Formify.png";
 
 export {
   logo,
@@ -64,4 +64,5 @@ export {
   Roamio,
   promptpal,
   Connections,
+  Formify,
 };

@@ -25,6 +25,8 @@ import {
   Cartify,
   Roamio,
   Formify,
+  DirectDubai,
+  BoloForms,
 } from "../assets";
 
 export const navLinks = [
@@ -33,7 +35,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "experience",
     title: "Work",
   },
   {
@@ -148,6 +150,35 @@ const experiences = [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Node.js, React.js, Express.js, MongoDb, Redux, Firebase,postman, AWS, GIT, TailwindCss,BootStrap,Java, Dsa",
+    ],
+  },
+];
+
+const experiencesReal = [
+  {
+    title: "Full Stack Developer",
+    company_name: "BoloForms",
+    icon: BoloForms,
+    iconBg: "#EBEBEC",
+    date: "Jan 2024 - present",
+    points: [
+      "Working as an intern.",
+      "Enhanced user experience and functionality by developing several features.",
+      "Successfully implemented CRM and HR integrations from Pipedrive to HubSpot, streamlining data flow and enhancing user experience for sales and marketing teams.",
+      "Resolved technical challenges efficiently, demonstrating adaptability in a fast-paced work environment.",
+    ],
+  },
+  {
+    title: "React Native Developer",
+    company_name: "DirectDubai",
+    icon: DirectDubai,
+    iconBg: "#E6DEDD",
+    date: "Nov 2023 - Dec 2023",
+    points: [
+      "Worked as an intern.",
+      "Led the development of an app from scratch during my internship. Utilized my strong learning capabilities and initiative to build the user interface, implement core features using React Native components.",
+      "Identified core functionalities: Conducted user interviews and competitor analysis to define the app's essential features.",
+      "Evaluated SDK options: Compared various SDKs based on features, integration ease, documentation quality, and community support.",
     ],
   },
 ];
@@ -274,4 +305,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, experiencesReal };

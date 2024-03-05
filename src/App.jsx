@@ -9,6 +9,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import Experience from "./components/Experience";
 const App = () => {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <Experience />
         <Education />
         <Tech />
         <Works />

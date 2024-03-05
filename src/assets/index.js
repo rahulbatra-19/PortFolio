@@ -33,6 +33,9 @@ import promptpal from "./promptpal.png";
 import Roamio from "./Roamio.png";
 import Formify from "./Formify.png";
 
+import DirectDubai from "./company/DirectDubai.jpg";
+import BoloForms from "./company/BoloForms.png";
+
 export {
   logo,
   backend,
@@ -65,4 +68,6 @@ export {
   promptpal,
   Connections,
   Formify,
+  DirectDubai,
+  BoloForms,
 };

@@ -22,6 +22,7 @@ import firebase from "./tech/firebase.png";
 import mongoose from "./tech/mongoose.png";
 import postman from "./tech/postman.png";
 import java from "./tech/java.png";
+import Typescript from "./tech/Ts.png";
 
 import DU from "./company/DU.png";
 import Fidelis from "./company/Fidelis.png";
@@ -32,6 +33,7 @@ import Connections from "./Connections.png";
 import promptpal from "./promptpal.png";
 import Roamio from "./Roamio.png";
 import Formify from "./Formify.png";
+import Sup from "./Sup.png";
 
 import DirectDubai from "./company/DirectDubai.jpg";
 import BoloForms from "./company/BoloForms.png";
@@ -70,4 +72,6 @@ export {
   Formify,
   DirectDubai,
   BoloForms,
+  Sup,
+  Typescript,
 };

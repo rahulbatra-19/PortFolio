@@ -27,6 +27,8 @@ import {
   Formify,
   DirectDubai,
   BoloForms,
+  Sup,
+  Typescript,
 } from "../assets";
 
 export const navLinks = [
@@ -73,6 +75,10 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: "Typescript",
+    icon: Typescript,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
@@ -88,10 +94,7 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "java",
-    icon: java,
-  },
+
   {
     name: "MongoDB",
     icon: mongodb,
@@ -162,7 +165,6 @@ const experiencesReal = [
     iconBg: "#EBEBEC",
     date: "Jan 2024 - present",
     points: [
-      "Working as an intern.",
       "Enhanced user experience and functionality by developing several features.",
       "Successfully implemented CRM and HR integrations from Pipedrive to HubSpot, streamlining data flow and enhancing user experience for sales and marketing teams.",
       "Resolved technical challenges efficiently, demonstrating adaptability in a fast-paced work environment.",
@@ -206,6 +208,28 @@ const projects = [
     source_code_link:
       "https://github.com/rahulbatra-19/Roamio-Vacation-Booking-mern",
     hosted_link: "https://roamio-app.netlify.app/",
+  },
+  {
+    name: "Sup",
+    description:
+      "A Chatting app where users can create account, chat with other users, create groups, join multiple groups, see users profile.",
+    tags: [
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Sup,
+    source_code_link: "https://github.com/rahulbatra-19/Sup",
+    hosted_link: "https://sup-rahul-batras-projects.vercel.app/",
   },
   {
     name: "Connections",
